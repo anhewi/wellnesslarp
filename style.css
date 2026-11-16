@@ -1,0 +1,27 @@
+:root{--bg:#f1e9e6;--gold:#a8845a;--star:#bf9b6b;--mist:#d0dbdd;--ink:#4a3b2c}
+*{box-sizing:border-box}
+html{scroll-padding-top:1rem}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:Georgia,"Times New Roman",serif;line-height:1.7;font-size:1.1rem}
+h1,h2,nav a{font-family:"Poiret One","Didot","Bodoni MT","Avenir Next",Georgia,serif;font-weight:400;text-transform:uppercase;letter-spacing:.12em;color:var(--gold)}
+header{padding:2.5rem 1rem 1rem;text-align:center}
+.logo{display:block;font-size:clamp(1.8rem,6vw,3.2rem);line-height:1.15;color:var(--gold);text-decoration:none;font-family:"Poiret One","Didot","Bodoni MT",Georgia,serif;letter-spacing:.14em;text-transform:uppercase}
+nav{display:flex;flex-wrap:wrap;justify-content:center;gap:.4rem 1.8rem;margin-top:1.5rem}
+nav a{text-decoration:none;font-size:1rem;padding:.3rem 0;border-bottom:1px solid transparent}
+nav a:hover,nav a[aria-current]{border-bottom-color:var(--gold)}
+a:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+main{max-width:42rem;margin:2rem auto 3rem;padding:0 1.2rem}
+h1{font-size:clamp(1.6rem,5vw,2.4rem);margin:0 0 1rem}
+h2{font-size:1.3rem;margin-top:2rem}
+.hero{position:relative;height:240px;margin:0 auto 1rem;max-width:300px}
+.hero .moon{position:absolute;left:28%;top:12%;width:170px;height:170px;border-radius:50%;background:var(--mist)}
+.hero svg{position:absolute;fill:var(--star)}
+.hero .big{left:25%;top:0;width:190px;height:240px}
+.hero .s1{left:22%;top:48%;width:24px;height:24px}
+.hero .s2{right:6%;top:55%;width:28px;height:28px}
+.hero .s3{left:56%;bottom:-4%;width:26px;height:26px}
+.intro{text-align:center}
+.btn{display:inline-block;margin-top:1rem;padding:.7rem 1.8rem;background:var(--gold);color:#fff;text-decoration:none;font-family:"Poiret One","Didot",Georgia,serif;letter-spacing:.12em;text-transform:uppercase}
+.btn:hover{background:var(--ink)}
+.note{background:var(--mist);padding:1rem 1.2rem;font-size:1rem}
+footer{text-align:center;padding:2rem 1rem;font-size:.95rem;border-top:1px solid var(--mist)}
+footer a{color:var(--gold)}
