@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Die Orga – Barbara-Mercedes-Resort</title>
+<link rel="stylesheet" href="style.css">
+<style>
+main { max-width: 62rem; }
+.intro-orga { text-align: center; max-width: 36rem; margin: 0 auto 2.5rem; }
+.team { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(4, 1fr); gap: 2.5rem 1.5rem; }
+.person { text-align: center; }
+.person .foto { width: 100%; max-width: 190px; aspect-ratio: 1; margin: 0 auto 1rem; border-radius: 50%; padding: 6px; background: var(--bg); border: 2px solid var(--star); box-shadow: 0 0 0 8px var(--mist); }
+.person .foto img { width: 100%; height: 100%; object-fit: cover; border-radius: 50%; display: block; margin: 0; background: var(--mist); }
+.person h2 { margin: 0 0 .3rem; font-size: 1.25rem; }
+.person p { margin: 0; font-size: 1rem; line-height: 1.5; }
+@media (max-width: 800px) { .team { grid-template-columns: repeat(2, 1fr); } }
+</style>
+</head>
+<body>
+<header>
+  <a class="logo" href="index.html">Barbara-Mercedes-Resort</a>
+  <nav aria-label="Hauptmenü">
+    <a href="index.html">Startseite</a>
+    <a href="ueber-das-larp.html">Über das LARP</a>
+    <a href="die-orga.html" aria-current="page">Die Orga</a>
+    <a href="anmeldung.html">Anmeldung</a>
+  </nav>
+</header>
+<main>
+  <div class="intro-orga"><h1>Die Orga</h1></div>
+  <ul class="team">
+    <li class="person">
+      <div class="foto"><img src="silke.jpg" alt="Silke" width="400" height="400"></div>
+      <h2>Silke</h2>
+      <p>Drache im Fundus und Fels in der Brandung</p>
+    </li>
+    <li class="person">
+      <div class="foto"><img src="angela.jpg" alt="Angela" width="400" height="400"></div>
+      <h2>Angela</h2>
+      <p>Plotten im Hintergrund, NSC im Vordergrund</p>
+    </li>
+    <li class="person">
+      <div class="foto"><img src="lars.jpg" alt="Lars" width="400" height="400"></div>
+      <h2>Lars</h2>
+      <p>Kreatives Genie und Orga-Wahnsinn in einer Person</p>
+    </li>
+    <li class="person">
+      <div class="foto"><img src="cathrin.jpg" alt="Cathrin" width="400" height="400"></div>
+      <h2>Cathrin</h2>
+      <p>Finanzhai und Beschaffungskrake</p>
+    </li>
+    <li class="person">
+      <div class="foto"><img src="britta.jpg" alt="Britta" width="400" height="400"></div>
+      <h2>Britta</h2>
+      <p>Für alles zuständig, das mit B beginnt</p>
+    </li>
+    <li class="person">
+      <div class="foto"><img src="fabio.jpg" alt="Fabio" width="400" height="400"></div>
+      <h2>Fabio</h2>
+      <p>Immer zur Stelle und zeitgleich im Schrank verschwunden</p>
+    </li>
+    <li class="person">
+      <div class="foto"><img src="nadine.jpg" alt="Nadine" width="400" height="400"></div>
+      <h2>Nadine</h2>
+      <p>Zuständig für albernen Quatsch und Polizeiarbeit</p>
+    </li>
+    <li class="person">
+      <div class="foto"><img src="steffi.jpg" alt="Steffi" width="400" height="400"></div>
+      <h2>Steffi</h2>
+      <p>Wohlfühlmanagerin. Gegen Hunger und Kummer</p>
+    </li>
+  </ul>
+</main>
+<footer><a href="datenschutz.html">Datenschutzerklärung</a> · <a href="impressum.html">Impressum</a></footer>
+</body>
+</html>
